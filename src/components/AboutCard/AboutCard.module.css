@@ -1,0 +1,42 @@
+.aboutCard {
+  display: grid;
+  justify-content: center;
+  max-width: 20em;
+  padding: 5rem;
+}
+.cardHeader {
+  justify-content: center;
+  display: grid;
+}
+.cardHeader img {
+  margin: auto;
+  border-radius: 50rem;
+  width: 5em;
+}
+.cardHeader a {
+  text-decoration: none;
+  color: var(--clr-black);
+  padding: 2rem 0;
+  font-size: var(--fs-400);
+}
+
+.cardBody p {
+  line-height: 1.2;
+  font-size: var(--fs-sm);
+  hyphens: auto;
+}
+.cardBody h3 {
+  font-size: var(--fs-400);
+  padding-bottom: 0.6rem;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 10%);
+}
+.cardBody a {
+  text-decoration: none;
+  color: var(--clr-black);
+
+  font-size: var(--fs-sm);
+  padding: 1rem;
+  margin-right: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--clr-primary-light);
+}
